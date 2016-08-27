@@ -1,0 +1,15 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <input type="text" id="txtProduct" />
+        <input type="text" id="txtCustomer" />
+
+        <!--<script data-main="js/app" src="./node_modules/requirejs/require.js" ></script>-->
+        <script src="./node_modules/systemjs/dist/system.js"></script>
+        <script>
+            System.config({meta:{format:'cjs'}});
+            System.import('js/app.js');
+        </script>
+    </body>
+</html>
